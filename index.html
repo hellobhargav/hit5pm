@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body>
+    <header class="container-fluid px-5 sticky-top bg-light">
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.jpg" alt="">
+            </a>
+            <button class="navbar-toggler" data-bs-target="#mainNav" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="mainNav" class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#courses" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#batches" class="nav-link">Batches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#more" data-bs-toggle="offcanvas" class="nav-link">More</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Offcanvas Starts-->
+    <div class="offcanvas offcanvas-end" id="more">
+        <div class="offcanvas-header">
+            <h5>Follow Us for More</h5>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti sed numquam ea tenetur est
+                repudiandae iste, minima omnis eaque, quod earum obcaecati. Soluta quidem reiciendis debitis, minus
+                officia atque?</p>
+        </div>
+    </div>
+    <!--Offcanvas Ends-->
+    <section class="container-fluid p-0" style="overflow: hidden;">
+        <!-- Start WOWSlider.com BODY section -->
+        <div id="wowslider-container1">
+            <div class="ws_images">
+                <ul>
+                    <li><img src="data1/images/banner1.jpg" alt="Online Training" title="Online Training"
+                            id="wows1_0" /></li>
+                    <li><a href="#"><img src="data1/images/banner2.jpg" alt="javascript photo gallery"
+                                title="Placement Assistance" id="wows1_1" /></a></li>
+                    <li><img src="data1/images/banner3.jpg" alt="Learn From Developers" title="Learn From Developers"
+                            id="wows1_2" /></li>
+                </ul>
+            </div>
+            <div class="ws_bullets">
+                <div>
+                    <a href="#" title="Online Training"><span><img src="data1/tooltips/banner1.jpg"
+                                alt="Online Training" />1</span></a>
+                    <a href="#" title="Placement Assistance"><span><img src="data1/tooltips/banner2.jpg"
+                                alt="Placement Assistance" />2</span></a>
+                    <a href="#" title="Learn From Developers"><span><img src="data1/tooltips/banner3.jpg"
+                                alt="Learn From Developers" />3</span></a>
+                </div>
+            </div>
+
+        </div>
+        <script type="text/javascript" src="engine1/wowslider.js"></script>
+        <script type="text/javascript" src="engine1/script.js"></script>
+        <!-- End WOWSlider.com BODY section -->
+    </section>
+    <section class="container" id="about">
+        <div class="row">
+            <div class="col-12 col-lg-8 p-5">
+                <h1>Welcome to Hyderabad IT Trainings</h1>
+                <p>Hyderabad IT Trainings is a Hyderabad based Training Institute delivering classroom and online
+                    trainings in India, USA and UK, Australia. We are Providing high quality training is our core value.
+                    We offer both classroom and online training on niche technologies which are in high demand. All our
+                    trainers are IT professionals with rich experience.</p>
+                <p>Hyderabad IT Trainings is a Hyderabad based Training Institute delivering classroom and online
+                    trainings in India, USA and UK, Australia. We are Providing high quality training is our core value.
+                    We offer both classroom and online training on niche technologies which are in high demand. All our
+                    trainers are IT professionals with rich experience.</p>
+
+                <div class="progress my-3">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%;">
+                        HTML - 85%
+                    </div>
+                </div>
+                <div class="progress my-3">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 90%;">
+                        CSS - 90%
+                    </div>
+                </div>
+
+
+
+                <button data-bs-target="#more" data-bs-toggle="collapse">Know More</button>
+                <div class="collapse" id="more">
+                    <p>Hyderabad IT Trainings is a Hyderabad based Training Institute delivering classroom and online
+                        trainings in India, USA and UK, Australia. We are Providing high quality training is our core
+                        value.
+                        We offer both classroom and online training on niche technologies which are in high demand. All
+                        our
+                        trainers are IT professionals with rich experience.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 p-5">
+                <img src="about.avif" class="w-75" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--Modal Starts-->
+    <div class="modal fade" id="enroll" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Enroll Now</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-floating mb-3">
+                            <input type="text" placeholder="" class=" form-control">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" placeholder="" class=" form-control">
+                            <label for="name">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" placeholder="" class=" form-control">
+                            <label for="name">Mobile</label>
+                        </div>
+                        <select name="" id="" class="form-select">
+                            <option value="" hidden>Interested Course</option>
+                            <option value="">UI U Designing</option>
+                            <option value="">UI Development</option>
+                            <option value="">MERN Fullstack</option>
+                        </select>
+
+                </div>
+                <div class="modal-footer">
+                    <button data-bs-dismiss="modal" class="btn btn-danger">Spoil My Life</button>
+                    <input type="submit" value="Start Your Journey" class="btn btn-success">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Ends-->
+
+    <section class=" container p-5 text-center" id="courses">
+        <h1>Latest <span class="text-danger">Courses</span></h1>
+        <div class="row">
+            <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div class="card">
+                    <img src="assets/full-stack-dev-min.jpg" class="w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">UI Development</h5> <button class="btn btn-danger w-100"
+                            data-bs-target="#enroll" data-bs-toggle="modal">Enroll
+                            Now</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div class="card">
+                    <img src="assets/full-stack-dev-min.jpg" class="w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">UI Development</h5> <button class="btn btn-danger w-100"
+                            data-bs-target="#enroll" data-bs-toggle="modal">Enroll
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div class="card">
+                    <img src="assets/full-stack-dev-min.jpg" class="w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">UI Development</h5> <button class="btn btn-danger w-100"
+                            data-bs-target="#enroll" data-bs-toggle="modal">Enroll
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div class="card">
+                    <img src="assets/full-stack-dev-min.jpg" class="w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">UI Development</h5> <button class="btn btn-danger w-100"
+                            data-bs-target="#enroll" data-bs-toggle="modal">Enroll
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div class="card">
+                    <img src="assets/full-stack-dev-min.jpg" class="w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">UI Development</h5> <button class="btn btn-danger w-100"
+                            data-bs-target="#enroll" data-bs-toggle="modal">Enroll
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div class="card">
+                    <img src="assets/full-stack-dev-min.jpg" class="w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">UI Development</h5> <button class="btn btn-danger w-100"
+                            data-bs-target="#enroll" data-bs-toggle="modal">Enroll
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div class="card">
+                    <img src="assets/full-stack-dev-min.jpg" class="w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">UI Development</h5> <button class="btn btn-danger w-100"
+                            data-bs-target="#enroll" data-bs-toggle="modal">Enroll
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div class="card">
+                    <img src="assets/full-stack-dev-min.jpg" class="w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">UI Development</h5> <button class="btn btn-danger w-100"
+                            data-bs-target="#enroll" data-bs-toggle="modal">Enroll
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div class="card">
+                    <img src="assets/full-stack-dev-min.jpg" class="w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">UI Development</h5> <button class="btn btn-danger w-100"
+                            data-bs-target="#enroll" data-bs-toggle="modal">Enroll
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div class="card">
+                    <img src="assets/full-stack-dev-min.jpg" class="w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">UI Development</h5> <button class="btn btn-danger w-100"
+                            data-bs-target="#enroll" data-bs-toggle="modal">Enroll
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div class="card">
+                    <img src="assets/full-stack-dev-min.jpg" class="w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">UI Development</h5> <button class="btn btn-danger w-100"
+                            data-bs-target="#enroll" data-bs-toggle="modal">Enroll
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 col-lg-4 col-xl-3 mx-auto">
+                <div class="card">
+                    <img src="assets/full-stack-dev-min.jpg" class="w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">UI Development</h5> <button class="btn btn-danger w-100"
+                            data-bs-target="#enroll" data-bs-toggle="modal">Enroll
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" container p-5 batches" id="batches">
+        <div class="table-responsive">
+            <table class=" table table-bordered table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Course</th>
+                        <th>Date</th>
+                        <th>Timings</th>
+                        <th>Duration</th>
+                        <th>Trainer</th>
+                        <th>Register for Demo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Full Stack Development</td>
+                        <td>18 -July -2024</td>
+                        <td>03:00 PM - 04:00 PM</td>
+                        <td>5 Months</td>
+                        <td>Mr. Bhargav</td>
+                        <td><a href="https://hyderabadittrainings.com/mern-fullstack-developer-course-hyderabad.php">Register
+                                Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Google Adwords</td>
+                        <td>18 -July -2024</td>
+                        <td>08:00 AM - 09:00 AM</td>
+                        <td>4 Months</td>
+                        <td>M.S.R</td>
+                        <td><a href="https://hyderabadittrainings.com/adwords-training-hyderabad.php">Register Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>UI Development</td>
+                        <td>18 -July -2024</td>
+                        <td>03:00 PM - 04:00 PM</td>
+                        <td>3 Months</td>
+                        <td>Mr. Bhargav</td>
+                        <td><a href="https://hyderabadittrainings.com/ui-developer-course-hyderabad.php">Register
+                                Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Python Full Stack Development</td>
+                        <td>18 -July -2024</td>
+                        <td>06:00 PM - 07:00 PM</td>
+                        <td>5 Months</td>
+                        <td>Mr. Sudheer</td>
+                        <td><a href="https://hyderabadittrainings.com/python-fullstack-developer-course-hyderabad.php">Register
+                                Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Java Full Stack Development</td>
+                        <td>18 -July -2024</td>
+                        <td>11:00 AM - 12:00 PM</td>
+                        <td>5 Months</td>
+                        <td>Ms. Sindhuja</td>
+                        <td><a href="https://hyderabadittrainings.com/java-fullstack-developer-course-hyderabad.php">Register
+                                Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>UIUX Designing</td>
+                        <td>15 -July - 2024</td>
+                        <td>11:00 AM - 12:00 PM</td>
+                        <td>4 Months</td>
+                        <td>Mr. Sakthivel</td>
+                        <td><a href="https://hyderabadittrainings.com/ui-ux-designing-course-hyderabad.php">Register
+                                Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Web Designing</td>
+                        <td>18 - July - 2024</td>
+                        <td>03:00 PM - 04:00 PM</td>
+                        <td>2 Months</td>
+                        <td>Mr. Bhargav</td>
+                        <td><a href="https://hyderabadittrainings.com/newbatches.php">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Python with DJango</td>
+                        <td>18 -July -2024</td>
+                        <td>06:00 PM - 07:00 PM</td>
+                        <td>3 Months</td>
+                        <td>Mr. Sudheer</td>
+                        <td><a href="https://hyderabadittrainings.com/python-training-hyderabad.php">Register Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DJango</td>
+                        <td>18 -July -2024</td>
+                        <td>05:00 PM - 06:00 PM</td>
+                        <td>1 Months</td>
+                        <td>Mr. Sudheer</td>
+                        <td><a href="https://hyderabadittrainings.com/python-django-training-hyderabad.php">Register
+                                Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>React JS</td>
+                        <td>15 -July - 2024</td>
+                        <td>10:00 AM - 11:00 AM</td>
+                        <td>1 Months</td>
+                        <td>Mr. Bhargav</td>
+                        <td><a href="https://hyderabadittrainings.com/reactjs-training-hyderabad.php">Register Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PHP with MySQL</td>
+                        <td>18 -July -2024</td>
+                        <td>03:00 PM - 04:00 PM</td>
+                        <td>3 Months</td>
+                        <td>Mr. Bhargav</td>
+                        <td><a href="https://hyderabadittrainings.com/php-training-hyderabad.php">Register Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Google Adwords</td>
+                        <td>18 -July -2024</td>
+                        <td>08:00 AM - 09:00 AM</td>
+                        <td>2 Months</td>
+                        <td>M.S.R</td>
+                        <td><a href="https://hyderabadittrainings.com/adwords-training-hyderabad.php">Register Now</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class=" container p-5 choose ">
+        <h1>Why Choose US</h1>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <h5>IT Experts as a Trainer's</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil quia laborum doloremque officiis ab
+                    distinctio molestiae qui, aut maxime soluta animi sapiente inventore, illum quo voluptate quasi
+                    dolores
+                    sint tenetur. </p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <h5>IT Experts as a Trainer's</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil quia laborum doloremque officiis ab
+                    distinctio molestiae qui, aut maxime soluta animi sapiente inventore, illum quo voluptate quasi
+                    dolores
+                    sint tenetur. </p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <h5>IT Experts as a Trainer's</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil quia laborum doloremque officiis ab
+                    distinctio molestiae qui, aut maxime soluta animi sapiente inventore, illum quo voluptate quasi
+                    dolores
+                    sint tenetur. </p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <h5>IT Experts as a Trainer's</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil quia laborum doloremque officiis ab
+                    distinctio molestiae qui, aut maxime soluta animi sapiente inventore, illum quo voluptate quasi
+                    dolores
+                    sint tenetur. </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
